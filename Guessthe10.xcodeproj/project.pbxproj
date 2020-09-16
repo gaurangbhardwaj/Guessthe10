@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC137F562188DD12000B7622 /* SelectLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137F552188DD12000B7622 /* SelectLevel.swift */; };
+		AC137F582188E8D2000B7622 /* logo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137F572188E8D2000B7622 /* logo2.swift */; };
+		AC9C94ED21885DDC00B0D12E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C94EC21885DDC00B0D12E /* AppDelegate.swift */; };
+		AC9C94EF21885DDC00B0D12E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C94EE21885DDC00B0D12E /* ViewController.swift */; };
+		AC9C94F221885DDC00B0D12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9C94F021885DDC00B0D12E /* Main.storyboard */; };
+		AC9C94F421885DDE00B0D12E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9C94F321885DDE00B0D12E /* Assets.xcassets */; };
+		AC9C94F721885DDE00B0D12E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9C94F521885DDE00B0D12E /* LaunchScreen.storyboard */; };
+		AC9C950221885DDE00B0D12E /* Guessthe10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C950121885DDE00B0D12E /* Guessthe10Tests.swift */; };
+		AC9C950D21885DDE00B0D12E /* Guessthe10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C950C21885DDE00B0D12E /* Guessthe10UITests.swift */; };
+		AC9C951B2188650E00B0D12E /* logo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C951A2188650E00B0D12E /* logo1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC9C94FE21885DDE00B0D12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9C94E121885DDC00B0D12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9C94E821885DDC00B0D12E;
+			remoteInfo = Guessthe10;
+		};
+		AC9C950921885DDE00B0D12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9C94E121885DDC00B0D12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9C94E821885DDC00B0D12E;
+			remoteInfo = Guessthe10;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC137F552188DD12000B7622 /* SelectLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevel.swift; sourceTree = "<group>"; };
+		AC137F572188E8D2000B7622 /* logo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logo2.swift; sourceTree = "<group>"; };
+		AC9C94E921885DDC00B0D12E /* Guessthe10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guessthe10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9C94EC21885DDC00B0D12E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC9C94EE21885DDC00B0D12E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC9C94F121885DDC00B0D12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC9C94F321885DDE00B0D12E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9C94F621885DDE00B0D12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC9C94F821885DDE00B0D12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9C94FD21885DDE00B0D12E /* Guessthe10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Guessthe10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9C950121885DDE00B0D12E /* Guessthe10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guessthe10Tests.swift; sourceTree = "<group>"; };
+		AC9C950321885DDE00B0D12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9C950821885DDE00B0D12E /* Guessthe10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Guessthe10UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9C950C21885DDE00B0D12E /* Guessthe10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guessthe10UITests.swift; sourceTree = "<group>"; };
+		AC9C950E21885DDE00B0D12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9C951A2188650E00B0D12E /* logo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logo1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9C94E621885DDC00B0D12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9C94FA21885DDE00B0D12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9C950521885DDE00B0D12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9C94E021885DDC00B0D12E = {
+			isa = PBXGroup;
+			children = (
+				AC9C94EB21885DDC00B0D12E /* Guessthe10 */,
+				AC9C950021885DDE00B0D12E /* Guessthe10Tests */,
+				AC9C950B21885DDE00B0D12E /* Guessthe10UITests */,
+				AC9C94EA21885DDC00B0D12E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9C94EA21885DDC00B0D12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C94E921885DDC00B0D12E /* Guessthe10.app */,
+				AC9C94FD21885DDE00B0D12E /* Guessthe10Tests.xctest */,
+				AC9C950821885DDE00B0D12E /* Guessthe10UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9C94EB21885DDC00B0D12E /* Guessthe10 */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C94EC21885DDC00B0D12E /* AppDelegate.swift */,
+				AC9C94EE21885DDC00B0D12E /* ViewController.swift */,
+				AC9C94F021885DDC00B0D12E /* Main.storyboard */,
+				AC9C94F321885DDE00B0D12E /* Assets.xcassets */,
+				AC9C94F521885DDE00B0D12E /* LaunchScreen.storyboard */,
+				AC9C94F821885DDE00B0D12E /* Info.plist */,
+				AC9C951A2188650E00B0D12E /* logo1.swift */,
+				AC137F552188DD12000B7622 /* SelectLevel.swift */,
+				AC137F572188E8D2000B7622 /* logo2.swift */,
+			);
+			path = Guessthe10;
+			sourceTree = "<group>";
+		};
+		AC9C950021885DDE00B0D12E /* Guessthe10Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C950121885DDE00B0D12E /* Guessthe10Tests.swift */,
+				AC9C950321885DDE00B0D12E /* Info.plist */,
+			);
+			path = Guessthe10Tests;
+			sourceTree = "<group>";
+		};
+		AC9C950B21885DDE00B0D12E /* Guessthe10UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C950C21885DDE00B0D12E /* Guessthe10UITests.swift */,
+				AC9C950E21885DDE00B0D12E /* Info.plist */,
+			);
+			path = Guessthe10UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9C94E821885DDC00B0D12E /* Guessthe10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9C951121885DDE00B0D12E /* Build configuration list for PBXNativeTarget "Guessthe10" */;
+			buildPhases = (
+				AC9C94E521885DDC00B0D12E /* Sources */,
+				AC9C94E621885DDC00B0D12E /* Frameworks */,
+				AC9C94E721885DDC00B0D12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guessthe10;
+			productName = Guessthe10;
+			productReference = AC9C94E921885DDC00B0D12E /* Guessthe10.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC9C94FC21885DDE00B0D12E /* Guessthe10Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9C951421885DDE00B0D12E /* Build configuration list for PBXNativeTarget "Guessthe10Tests" */;
+			buildPhases = (
+				AC9C94F921885DDE00B0D12E /* Sources */,
+				AC9C94FA21885DDE00B0D12E /* Frameworks */,
+				AC9C94FB21885DDE00B0D12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9C94FF21885DDE00B0D12E /* PBXTargetDependency */,
+			);
+			name = Guessthe10Tests;
+			productName = Guessthe10Tests;
+			productReference = AC9C94FD21885DDE00B0D12E /* Guessthe10Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC9C950721885DDE00B0D12E /* Guessthe10UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9C951721885DDE00B0D12E /* Build configuration list for PBXNativeTarget "Guessthe10UITests" */;
+			buildPhases = (
+				AC9C950421885DDE00B0D12E /* Sources */,
+				AC9C950521885DDE00B0D12E /* Frameworks */,
+				AC9C950621885DDE00B0D12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9C950A21885DDE00B0D12E /* PBXTargetDependency */,
+			);
+			name = Guessthe10UITests;
+			productName = Guessthe10UITests;
+			productReference = AC9C950821885DDE00B0D12E /* Guessthe10UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9C94E121885DDC00B0D12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gaurang Bhardwaj";
+				TargetAttributes = {
+					AC9C94E821885DDC00B0D12E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AC9C94FC21885DDE00B0D12E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AC9C94E821885DDC00B0D12E;
+					};
+					AC9C950721885DDE00B0D12E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AC9C94E821885DDC00B0D12E;
+					};
+				};
+			};
+			buildConfigurationList = AC9C94E421885DDC00B0D12E /* Build configuration list for PBXProject "Guessthe10" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9C94E021885DDC00B0D12E;
+			productRefGroup = AC9C94EA21885DDC00B0D12E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9C94E821885DDC00B0D12E /* Guessthe10 */,
+				AC9C94FC21885DDE00B0D12E /* Guessthe10Tests */,
+				AC9C950721885DDE00B0D12E /* Guessthe10UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9C94E721885DDC00B0D12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9C94F721885DDE00B0D12E /* LaunchScreen.storyboard in Resources */,
+				AC9C94F421885DDE00B0D12E /* Assets.xcassets in Resources */,
+				AC9C94F221885DDC00B0D12E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9C94FB21885DDE00B0D12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9C950621885DDE00B0D12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9C94E521885DDC00B0D12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC137F562188DD12000B7622 /* SelectLevel.swift in Sources */,
+				AC9C94EF21885DDC00B0D12E /* ViewController.swift in Sources */,
+				AC137F582188E8D2000B7622 /* logo2.swift in Sources */,
+				AC9C94ED21885DDC00B0D12E /* AppDelegate.swift in Sources */,
+				AC9C951B2188650E00B0D12E /* logo1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9C94F921885DDE00B0D12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9C950221885DDE00B0D12E /* Guessthe10Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9C950421885DDE00B0D12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9C950D21885DDE00B0D12E /* Guessthe10UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC9C94FF21885DDE00B0D12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9C94E821885DDC00B0D12E /* Guessthe10 */;
+			targetProxy = AC9C94FE21885DDE00B0D12E /* PBXContainerItemProxy */;
+		};
+		AC9C950A21885DDE00B0D12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9C94E821885DDC00B0D12E /* Guessthe10 */;
+			targetProxy = AC9C950921885DDE00B0D12E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC9C94F021885DDC00B0D12E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9C94F121885DDC00B0D12E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC9C94F521885DDE00B0D12E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9C94F621885DDE00B0D12E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9C950F21885DDE00B0D12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC9C951021885DDE00B0D12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9C951221885DDE00B0D12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSQ8ZMNX9X;
+				INFOPLIST_FILE = Guessthe10/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brd.Guessthe10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC9C951321885DDE00B0D12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSQ8ZMNX9X;
+				INFOPLIST_FILE = Guessthe10/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brd.Guessthe10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC9C951521885DDE00B0D12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSQ8ZMNX9X;
+				INFOPLIST_FILE = Guessthe10Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brd.Guessthe10Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guessthe10.app/Guessthe10";
+			};
+			name = Debug;
+		};
+		AC9C951621885DDE00B0D12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSQ8ZMNX9X;
+				INFOPLIST_FILE = Guessthe10Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brd.Guessthe10Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guessthe10.app/Guessthe10";
+			};
+			name = Release;
+		};
+		AC9C951821885DDE00B0D12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSQ8ZMNX9X;
+				INFOPLIST_FILE = Guessthe10UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brd.Guessthe10UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Guessthe10;
+			};
+			name = Debug;
+		};
+		AC9C951921885DDE00B0D12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSQ8ZMNX9X;
+				INFOPLIST_FILE = Guessthe10UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brd.Guessthe10UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Guessthe10;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9C94E421885DDC00B0D12E /* Build configuration list for PBXProject "Guessthe10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9C950F21885DDE00B0D12E /* Debug */,
+				AC9C951021885DDE00B0D12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9C951121885DDE00B0D12E /* Build configuration list for PBXNativeTarget "Guessthe10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9C951221885DDE00B0D12E /* Debug */,
+				AC9C951321885DDE00B0D12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9C951421885DDE00B0D12E /* Build configuration list for PBXNativeTarget "Guessthe10Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9C951521885DDE00B0D12E /* Debug */,
+				AC9C951621885DDE00B0D12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9C951721885DDE00B0D12E /* Build configuration list for PBXNativeTarget "Guessthe10UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9C951821885DDE00B0D12E /* Debug */,
+				AC9C951921885DDE00B0D12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9C94E121885DDC00B0D12E /* Project object */;
+}
